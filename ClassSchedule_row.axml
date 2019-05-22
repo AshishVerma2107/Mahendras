@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    card_view:cardElevation="16dp"
+    card_view:cardCornerRadius="10dp"
+    android:layout_height="92dp">
+
+	 <LinearLayout android:layout_width ="match_parent"
+                android:id="@+id/cardviewforclassSchedule"
+                android:orientation="vertical"
+                android:background ="@color/myschedule"
+                android:layout_height="match_parent"
+                >
+
+		<TextView android:id = "@+id/Scheduledate"
+		 android:layout_width="match_parent"
+	     android:layout_height="30dp"
+			android:gravity = "center"
+			android:textColor="@color/white"
+			android:text="Schedule For Hall PSS1 "
+         
+		/>
+
+		 <View android:layout_width ="match_parent"
+          android:layout_height="1dp"
+           android:background ="@color/white"
+          android:layout_marginLeft="5dp"
+          android:layout_marginRight ="5dp"
+                  
+                  />
+
+		<LinearLayout android:layout_width ="match_parent"
+                   android:orientation="horizontal"
+                  android:layout_height="30dp" >
+
+
+      <LinearLayout android:layout_width ="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                     android:gravity="left|center_vertical"
+                    android:layout_height="match_parent"
+                               
+                                             >
+        <TextView
+             android:text ="Date : "
+             android:layout_width ="wrap_content"
+                        
+             android:textColor="@color/labelcolor"
+                  android:layout_marginLeft ="5dp"
+             android:layout_height="wrap_content"
+                      />
+        <TextView android:id="@+id/scheduledate"
+           android:text ="2019-04-01"
+           android:layout_width ="match_parent"
+                        
+           android:textColor="@color/labelcolor"
+                            
+           android:layout_height="wrap_content"
+                      />
+
+      </LinearLayout>
+      <View android:layout_width ="1dp"
+        android:layout_height="match_parent"
+         android:background ="@color/white"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom ="3dp"
+                  
+                  />
+     
+
+        <LinearLayout android:layout_width ="0dp"
+                  android:layout_weight="1"
+                  android:orientation="horizontal"
+                   android:gravity="left|center_vertical"
+                  android:layout_height="match_parent"
+                               
+                                             >
+          <TextView
+               android:text ="Timing : "
+               android:layout_width ="wrap_content"
+                        
+               android:textColor="@color/labelcolor"
+                    android:layout_marginLeft ="5dp"
+               android:layout_height="wrap_content"
+                      />
+          <TextView android:id="@+id/ScheduleTiming"
+             android:text ="06:00 to 06:59"
+             android:layout_width ="match_parent"
+                        
+          android:textColor="@color/labelcolor"
+                            
+             android:layout_height="wrap_content"
+                      />
+
+        </LinearLayout>
+
+
+			</LinearLayout>
+
+		
+		 <View android:layout_width ="match_parent"
+          android:layout_height="1dp"
+           android:background ="@color/white"
+          android:layout_marginLeft="5dp"
+          android:layout_marginRight ="5dp"
+                  
+                  />
+
+		<LinearLayout android:layout_width ="match_parent"
+                   android:orientation="horizontal"
+                  android:layout_height="30dp"
+                               
+                                                           >
+
+
+      <LinearLayout android:layout_width ="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                     android:gravity="left|center_vertical"
+                    android:layout_height="match_parent"
+                               
+                                             >
+        <TextView
+             android:text ="Subject : "
+             android:layout_width ="wrap_content"
+                        
+             android:textColor="@color/labelcolor"
+                  android:layout_marginLeft ="5dp"
+             android:layout_height="wrap_content"
+                      />
+        <TextView android:id="@+id/ScheduleSubject"
+           android:text ="GA-PSS"
+           android:layout_width ="match_parent"
+                        
+           android:textColor="@color/labelcolor"
+                            
+           android:layout_height="wrap_content"
+                      />
+
+      </LinearLayout>
+			
+      <View android:layout_width ="1dp"
+        android:layout_height="match_parent"
+         android:background ="@color/white"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom ="3dp"
+                  
+                  />
+      
+
+        <LinearLayout android:layout_width ="0dp"
+                  android:layout_weight="1"
+                  android:orientation="horizontal"
+                   android:gravity="left|center_vertical"
+                  android:layout_height="match_parent"
+                               
+                                             >
+          <TextView
+               android:text ="Topic : "
+               android:layout_width ="wrap_content"
+                        
+               android:textColor="@color/labelcolor"
+                    android:layout_marginLeft ="5dp"
+               android:layout_height="wrap_content"
+                      />
+          <TextView android:id="@+id/ScheduleTopic"
+             android:text ="L-18-MACHINE INPUT-2"
+             android:layout_width ="match_parent"
+                    android:textSize="12dp"    
+          android:textColor="@color/labelcolor"
+                            
+             android:layout_height="wrap_content"
+                      />
+
+        </LinearLayout>
+
+
+     
+			</LinearLayout>
+		</LinearLayout>
+
+</android.support.v7.widget.CardView>

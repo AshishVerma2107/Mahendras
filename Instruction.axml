@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+	android:background="@color/white"
+    android:layout_height="match_parent">
+
+	<LinearLayout  android:layout_width="match_parent"
+				           android:layout_marginTop="20dp"
+			               android:orientation="horizontal"
+                           android:layout_height="20dp">
+			               <TextView android:layout_width = "10dp"
+					                 android:background="@color/orange"
+				                     android:layout_height="match_parent"/>
+				           <TextView android:layout_width = "match_parent"
+			                         android:id="@+id/instructiontitle"
+					                 android:text="Geenral Instruction"
+					                 android:layout_marginLeft ="15dp"
+					                 android:textColor="@color/black"
+					                 android:textStyle="bold"
+					                 android:textSize="16dp"
+			                         android:layout_height="20dp"/>
+	</LinearLayout>
+			               <android.webkit.WebView android:layout_width = "match_parent"
+					                 android:text="@string/instruction"
+				                     android:layout_marginLeft ="15dp"
+		                             android:id="@+id/testinstruction"
+				                     android:textColor="@color/grey"
+				                     android:layout_marginRight="15dp"
+				                     android:layout_marginTop="50dp"
+		                            android:layout_marginBottom="50dp"
+					                 android:textSize="14dp"
+			                         android:layout_height="wrap_content"/>
+  
+
+
+	<LinearLayout  android:layout_width="match_parent"
+				           android:layout_marginTop="20dp"
+		 android:layout_gravity="bottom"
+			               android:orientation="horizontal"
+                           android:layout_height="40dp">
+
+	                                <TextView android:layout_width = "0dp"
+		                             android:id="@+id/instructionok"
+					                 android:text="Accept/Continue"
+					                 android:gravity="center"
+					                 android:textColor="@color/white"
+		                            android:layout_weight="1"
+		                             android:background="@color/colorPrimary1"
+					                 
+					                 android:textSize="16dp"
+			                         android:layout_height="40dp"/>
+		<View  android:layout_width = "1dp" 
+			 android:layout_height="40dp"
+			android:background="@color/white"
+		/>
+		<TextView android:layout_width = "0dp"
+		                             android:id="@+id/cancel"
+					                 android:text="Cancel"
+					                 android:gravity="center"
+					                 android:textColor="@color/white"
+		                            android:layout_weight="1"
+		                             android:background="@color/colorPrimary1"
+					                 
+					                 android:textSize="16dp"
+			                         android:layout_height="40dp"/>
+		</LinearLayout>
+</FrameLayout>

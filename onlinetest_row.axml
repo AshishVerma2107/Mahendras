@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    card_view:cardElevation="16dp"
+    card_view:cardCornerRadius="10dp"
+    android:layout_height="154dp">
+
+  <LinearLayout android:layout_width ="match_parent"
+                android:id="@+id/cardviewfordashboard"
+                android:orientation="vertical"
+                android:background ="@color/myselection"
+                android:layout_height="match_parent"
+                >
+    <TextView android:id="@+id/coursename"
+              android:text ="test"
+              android:layout_width ="match_parent"
+              android:gravity="center"
+              android:textColor="#fff"
+              android:layout_height="30dp"
+                      />
+    <View android:layout_width ="match_parent"
+          android:layout_height="1dp"
+           android:background ="@color/white"
+          android:layout_marginLeft="5dp"
+          android:layout_marginRight ="5dp"
+                  
+                  />
+
+    <LinearLayout android:layout_width ="match_parent"
+                   android:orientation="horizontal"
+                  android:layout_height="30dp"
+                               
+                                                           >
+
+
+      <LinearLayout android:layout_width ="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                     android:gravity="left|center_vertical"
+                    android:layout_height="match_parent"
+                               
+                                             >
+        <TextView
+             android:text ="Def.Lang : "
+             android:layout_width ="wrap_content"
+                        
+             android:textColor="@color/labelcolor"
+                  android:layout_marginLeft ="5dp"
+             android:layout_height="wrap_content"
+                      />
+        <TextView android:id="@+id/coursename"
+           android:text ="Def.Lang : "
+           android:layout_width ="match_parent"
+                        
+           android:textColor="@color/labelcolor"
+                            
+           android:layout_height="wrap_content"
+                      />
+
+      </LinearLayout>
+      <View android:layout_width ="1dp"
+        android:layout_height="match_parent"
+         android:background ="@color/white"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom ="3dp"
+                  
+                  />
+      <LinearLayout android:layout_width ="0dp"
+                 android:layout_weight="1"
+                 android:layout_height="30dp"
+                               
+                               >
+
+        <LinearLayout android:layout_width ="0dp"
+                  android:layout_weight="1"
+                  android:orientation="horizontal"
+                   android:gravity="left|center_vertical"
+                  android:layout_height="match_parent"
+                               
+                                             >
+          <TextView
+               android:text ="Date : "
+               android:layout_width ="wrap_content"
+                        
+               android:textColor="@color/labelcolor"
+                    android:layout_marginLeft ="5dp"
+               android:layout_height="wrap_content"
+                      />
+          <TextView android:id="@+id/date"
+             android:text ="Date : "
+             android:layout_width ="match_parent"
+                        
+          android:textColor="@color/labelcolor"
+                            
+             android:layout_height="wrap_content"
+                      />
+
+        </LinearLayout>
+
+
+      </LinearLayout>
+
+
+    </LinearLayout>
+    <View android:layout_width ="match_parent"
+                    android:layout_height="1dp"
+                     android:background ="@color/white"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight ="5dp"
+                  
+                  />
+    <LinearLayout android:layout_width ="match_parent"
+                                android:orientation="horizontal"
+                               android:layout_height="30dp"
+                               
+                                                           >
+
+      <LinearLayout android:layout_width ="0dp"
+                               android:layout_weight="1"
+                               android:orientation="horizontal"
+                                android:gravity="left|center_vertical"
+                               android:layout_height="match_parent"
+                               
+                                             >
+        <TextView
+             android:text ="Attempted : "
+             android:layout_width ="wrap_content"
+                        
+             android:textColor="@color/labelcolor"
+                  android:layout_marginLeft ="5dp"
+             android:layout_height="wrap_content"
+                      />
+        <TextView android:id="@+id/attempted"
+           android:text ="7  "
+           android:layout_width ="match_parent"
+                        
+               android:textColor="@color/labelcolor"
+                            
+           android:layout_height="wrap_content"
+                      />
+
+      </LinearLayout>
+
+      <View android:layout_width ="1dp"
+       android:layout_height="match_parent"
+        android:background ="@color/white"
+       android:layout_marginTop="3dp"
+       android:layout_marginBottom ="3dp"
+                  
+                  />
+      <LinearLayout android:layout_width ="0dp"
+                              android:layout_weight="1"
+                              android:orientation="horizontal"
+                               android:gravity="left|center_vertical"
+                              android:layout_height="match_parent"
+                               
+                                             >
+        <TextView
+             android:text ="Correct : "
+             android:layout_width ="wrap_content"
+                        
+             android:textColor="@color/labelcolor"
+                  android:layout_marginLeft ="5dp"
+             android:layout_height="wrap_content"
+                      />
+        <TextView android:id="@+id/correct"
+           android:text ="4  "
+           android:layout_width ="match_parent"
+               android:textColor="@color/labelcolor"
+                      
+                            
+           android:layout_height="wrap_content"
+                      />
+
+      </LinearLayout>
+      <View android:layout_width ="1dp"
+        android:layout_height="match_parent"
+         android:background ="@color/white"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom ="3dp"
+                  
+                  />
+      <LinearLayout android:layout_width ="0dp"
+                 android:layout_weight="1"
+                 android:layout_height="30dp"
+                               
+                               >
+
+        <LinearLayout android:layout_width ="0dp"
+                  android:layout_weight="1"
+                  android:orientation="horizontal"
+                   android:gravity="left|center_vertical"
+                  android:layout_height="match_parent"
+                               
+                                             >
+          <TextView
+               android:text ="Obtained : "
+               android:layout_width ="wrap_content"
+                  android:textColor="@color/labelcolor"
+              
+                    android:layout_marginLeft ="5dp"
+               android:layout_height="wrap_content"
+                      />
+          <TextView android:id="@+id/obtained"
+             android:text ="3 "
+             android:layout_width ="match_parent"
+                        
+                   android:textColor="@color/labelcolor"
+                            
+             android:layout_height="wrap_content"
+                      />
+
+        </LinearLayout>
+
+
+      </LinearLayout>
+
+    </LinearLayout>
+    <View android:layout_width ="match_parent"
+                   android:layout_height="1dp"
+                    android:background ="@color/white"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginRight ="5dp"
+                  
+                  />
+
+    <LinearLayout android:layout_width ="match_parent"
+                                android:orientation="horizontal"
+                               android:layout_height="30dp"
+                               
+                                                           >
+
+      <LinearLayout android:layout_width ="0dp"
+                               android:layout_weight="1"
+                               android:orientation="horizontal"
+                                android:gravity="left|center_vertical"
+                               android:layout_height="match_parent"
+                               
+                                             >
+        <TextView
+             android:text ="Mode : "
+             android:layout_width ="wrap_content"
+                        
+             android:textColor="@color/labelcolor"
+                  android:layout_marginLeft ="5dp"
+             android:layout_height="wrap_content"
+                      />
+        <TextView android:id="@+id/mode"
+           android:text ="Online"
+           android:layout_width ="match_parent"
+              android:textColor="@color/labelcolor"
+                      
+                            
+           android:layout_height="wrap_content"
+                      />
+
+      </LinearLayout>
+      <View android:layout_width ="1dp"
+        android:layout_height="match_parent"
+         android:background ="@color/white"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom ="3dp"
+                  
+                  />
+      <LinearLayout android:layout_width ="0dp"
+                 android:layout_weight="1"
+                 android:layout_height="30dp"
+                               
+                               >
+
+        <LinearLayout android:layout_width ="0dp"
+                  android:layout_weight="1"
+                  android:orientation="horizontal"
+                   android:gravity="left|center_vertical"
+                  android:layout_height="match_parent"
+                               
+                                             >
+          <TextView
+               android:text ="Rank : "
+               android:layout_width ="wrap_content"
+                    android:textColor="@color/labelcolor"
+               
+                    android:layout_marginLeft ="5dp"
+               android:layout_height="wrap_content"
+                      />
+          <TextView android:id="@+id/rank"
+             android:text ="123 "
+             android:layout_width ="match_parent"
+                        
+                       android:textColor="@color/labelcolor"
+                            
+             android:layout_height="wrap_content"
+                      />
+
+        </LinearLayout>
+
+
+      </LinearLayout>
+    </LinearLayout>
+
+    <View android:layout_width ="match_parent"
+                  android:layout_height="1dp"
+                   android:background ="@color/white"
+                  android:layout_marginLeft="5dp"
+                  android:layout_marginRight ="5dp"
+                  
+                  />
+
+    <TextView android:id ="@+id/viewstatus"
+             android:layout_width ="match_parent"
+              android:text ="View Report"
+              android:gravity="center"
+              android:textColor="#fff"
+                  android:layout_height="30dp"
+              />
+
+  </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

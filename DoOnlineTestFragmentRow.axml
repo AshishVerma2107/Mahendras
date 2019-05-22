@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="10dp"
+	android:layout_marginRight="10dp"
+	android:layout_marginTop="10dp"
+    card_view:cardElevation="16dp"
+    card_view:cardCornerRadius="3dp"
+
+    android:layout_height="85dp">
+
+  <LinearLayout android:layout_width ="match_parent"
+                android:orientation="horizontal"
+		        android:background="@color/white"
+                android:layout_height="match_parent"
+                >
+
+		<LinearLayout android:layout_width ="0dp"
+                android:orientation="vertical"
+			    android:layout_weight="0.65"
+                android:layout_height="match_parent"
+                >
+				<LinearLayout android:layout_width ="match_parent"
+                android:orientation="vertical"
+			    android:layout_weight="1"
+				android:gravity = "center_vertical"
+                android:layout_height="0dp">
+
+				<TextView  android:layout_width="wrap_content"
+					android:id="@+id/onlinetesttitle"
+                android:layout_height="wrap_content" 
+					android:layout_marginLeft = "20dp"
+					android:layout_marginRight="20dp"
+				     android:text = "ST-2017 CRP CLERK (MAINS)"
+					android:textColor="@color/black"
+				/>
+
+		        </LinearLayout>
+			    <LinearLayout android:layout_width ="match_parent"
+                android:orientation="vertical"
+			    android:layout_weight="1"
+                android:layout_height="0dp">
+
+				  <LinearLayout android:layout_width ="match_parent"
+                android:orientation="horizontal"
+			    android:layout_weight="1"
+					android:gravity  = "center_vertical"
+                android:layout_height="0dp">
+
+					<TextView android:layout_width ="wrap_content" 
+						android:id="@+id/duration"
+					 android:layout_height="wrap_content"
+						android:text = "30 mins"
+						android:textSize="12dp"
+						android:textColor="@color/grey"
+						android:layout_marginLeft="20dp"
+					/>
+					<View android:layout_width ="1dp" 
+						android:background = "@color/grey"
+						android:layout_marginTop="6dp"
+						android:visibility="gone"
+						android:layout_marginBottom = "6dp"
+						android:layout_marginLeft="5dp"
+					 android:layout_height="match_parent" />
+					<TextView android:layout_width ="wrap_content" 
+						android:id = "@+id/testtime"
+					 android:layout_height="wrap_content"
+						android:text = "Starts  00:15:00"
+						android:textSize="12dp"
+						android:visibility="gone"
+						android:textColor="@color/grey"
+						android:layout_marginLeft="5dp"
+					/>
+		        </LinearLayout>
+				  <LinearLayout android:layout_width ="match_parent"
+                android:orientation="vertical"
+			    android:layout_weight="1"
+					android:gravity = "top"
+                android:layout_height="0dp">
+					<TextView android:layout_width ="wrap_content" 
+						android:id="@+id/testdate"
+					 android:layout_height="wrap_content"
+						android:textSize="12dp"
+						android:text = "Date 2019-04-15 to 2019-04-2"
+						android:textColor="@color/grey"
+						
+						android:layout_marginLeft="20dp"
+					/>
+		        </LinearLayout>
+
+		        </LinearLayout>
+
+       </LinearLayout>
+		<LinearLayout android:layout_width ="0dp"
+                android:orientation="horizontal"
+			    android:layout_weight="0.35"
+			    android:gravity ="center"     
+                android:layout_height="match_parent"
+                >
+
+			<TextView android:layout_width ="match_parent"
+				android:id = "@+id/starttest"
+                android:orientation="horizontal"
+				android:layout_marginRight="20dp"
+				android:text = "START TEST"
+				android:gravity = "center"
+				android:textColor = "@color/white"
+				android:background = "@drawable/mytestTextview"
+                android:layout_height="40dp" />
+       </LinearLayout>
+</LinearLayout>
+</android.support.v7.widget.CardView>

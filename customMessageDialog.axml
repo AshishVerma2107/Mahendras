@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+	android:background = "@color/white"
+	
+    android:layout_height="250dp">
+	
+	<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+	android:layout_weight="0.25"
+	android:gravity="center_vertical|left"
+	
+    android:layout_height="0dp">
+	
+		<TextView android:layout_width="10dp"
+		          android:layout_height="20dp"
+			      android:background = "@color/orange"
+		/>
+		<TextView android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"
+			      android:text="Confirmation"
+			android:layout_marginLeft="10dp"
+			android:textSize="20dp"
+			android:textColor="@color/black"
+			      
+			      
+		/>
+   </LinearLayout>
+
+	
+   
+	<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+	android:gravity="center"
+	android:layout_weight="0.55"
+    android:layout_height="0dp">
+	
+	<TextView android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+			android:layout_marginLeft="15dp"
+			android:layout_marginRight="15dp"
+			android:textColor="@color/grey"
+			android:text="You have reached last question of test, do you want to go to first question again?"
+		/>
+
+    </LinearLayout>
+	<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+	
+	android:gravity="center_vertical|right"
+	android:layout_weight="0.20"
+    android:layout_height="0dp">
+		<TextView android:layout_width="wrap_content"
+			  android:id = "@+id/button_cancel"
+		      android:layout_height="match_parent"
+			  android:gravity = "center"
+			  android:text="CANCEL"
+			  android:layout_marginRight="20dp"
+			  android:textColor="@color/black" />
+	    <TextView android:layout_width="50dp"
+			      android:id="@+id/submit_button"
+		          android:layout_height="match_parent"
+			      android:text="OK"
+			      android:gravity="center"
+			      android:layout_marginRight="10dp"
+			      android:textColor="@color/colorPrimary1" />
+
+    </LinearLayout>
+</LinearLayout>

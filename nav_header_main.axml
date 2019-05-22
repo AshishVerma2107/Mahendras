@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_container"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="#ffffff"       
+    
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+	 <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo5" />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      
+		android:gravity="center"
+     android:orientation = "vertical"
+      >
+
+    <refractored.controls.CircleImageView
+    
+    android:id="@+id/profile"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/profile_icon"
+			
+    app:civ_border_width="2dp"
+    app:civ_border_color="#D40047"/>
+
+
+    <TextView
+        android:id="@+id/usernametext"
+        android:text=""
+        android:textColor="#000000"
+			
+        android:layout_width="wrap_content"
+		
+			
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+   
+
+  </LinearLayout>
+	<View   android:layout_width="match_parent"
+		android:layout_marginTop="10dp"
+		  android:background="@color/colorPrimary"   
+    android:layout_height="2dp" />
+</LinearLayout>
+

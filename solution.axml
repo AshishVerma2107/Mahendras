@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	 xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+	
+    android:layout_height="match_parent">
+
+
+	<LinearLayout android:layout_width ="match_parent"
+                  android:orientation="horizontal"
+                  android:gravity="center"
+		         
+		          android:background="@color/colorPrimaryDark"
+			      android:layout_height="56dp"
+                >
+		<LinearLayout android:layout_width ="0dp"
+                  android:orientation="vertical"
+			      android:layout_weight="1"
+                  android:gravity="center"
+		         
+		         
+			      android:layout_height="50dp"
+                >
+			<Spinner android:id="@+id/solutionSpinner"
+			 android:layout_width="match_parent"
+			 android:visibility="gone"
+             android:layout_height="match_parent"
+			/>
+
+        </LinearLayout>
+
+		<LinearLayout  android:layout_width ="0dp"
+                  android:orientation="horizontal"
+			      android:layout_weight="1"
+		        
+			      android:gravity="center_vertical|right"
+		         
+			      android:layout_height="50dp"
+                >
+			<ImageView android:layout_width ="35dp" 
+			 android:layout_height="35dp"
+				android:layout_marginRight="15dp"
+				android:visibility="gone"
+				android:src="@drawable/changelanguage"
+			/>
+			<ImageView android:layout_width ="35dp" 
+				android:id="@+id/testmenuimage"
+			 android:layout_height="35dp"
+				android:visibility="gone"
+				android:layout_marginRight="15dp"
+				android:src="@drawable/testmenu"
+			/>
+
+			
+        </LinearLayout>
+
+</LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent" 
+		android:orientation="vertical"
+		  android:layout_marginTop="56dp"
+		          android:background="@color/white" >
+
+		<android.support.v7.widget.RecyclerView
+			      android:id="@+id/horizontalrecyclerview"
+			      android:layout_width="match_parent"
+                  android:layout_height="56dp" 
+			/>
+	
+
+		<ScrollView  
+	 android:layout_width="match_parent"
+	
+	 android:layout_height="wrap_content">
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+	android:layout_marginBottom="56dp"
+	android:layout_height="wrap_content">
+
+	<LinearLayout android:layout_width = "match_parent"
+					android:id = "@+id/passagelayout"
+			      android:orientation="vertical"
+			     
+			      android:background="#F0F3F4"
+		          android:layout_height = "wrap_content">
+			<TextView  android:layout_width="match_parent"
+				android:layout_marginLeft="15dp"
+				android:layout_marginRight="15dp"
+				android:layout_marginTop="15dp"
+				android:textSize="17dp"
+				android:text="Direction For Question"
+				android:textColor="@color/black"
+	              android:layout_height="20dp"/>
+		<android.webkit.WebView  android:layout_width="match_parent"
+						android:id="@+id/passagetext"
+				android:layout_marginLeft="15dp"
+				android:layout_marginRight="15dp"
+				android:layout_marginTop="5dp"
+				android:textColor="@color/grey"
+	               android:text = "We commonly use you see in speaking when we want to share knowledge with our listener or listeners. When we use you see, we assume that the listener or listeners do not have the knowledge that we want them to have:We commonly use you see in speaking when we want to "
+			     android:layout_height="wrap_content"/>
+				<TextView  android:layout_width="match_parent"
+				   android:text="...View full instruction"
+						android:visibility="gone"
+	               android:gravity="right|center_vertical"
+				android:textColor="@color/colorPrimary1"
+				android:textSize="16dp"
+				android:layout_marginRight = "15dp"
+	              android:layout_height="35dp"/>
+						<ImageView android:layout_width="match_parent"
+				   android:id = "@+id/passageimage"
+				   
+	               
+				   android:visibility = "gone"
+				   android:layout_marginTop="5dp"
+				  
+	               android:layout_height="wrap_content"/>
+
+					<ImageView android:layout_width="match_parent"
+				   android:id = "@+id/passageimage2"
+				   
+	               
+				   android:visibility = "gone"
+				   android:layout_marginTop="5dp"
+				  
+	               android:layout_height="wrap_content"/>
+		
+	</LinearLayout>
+	<LinearLayout android:layout_width = "match_parent"
+			     android:orientation="vertical"
+			      android:layout_weight="0.80"
+			      android:background="@color/white"
+		          android:layout_height = "0dp">
+			<android.webkit.WebView  android:layout_width="match_parent"
+						android:id = "@+id/solutionquestion"
+				   android:text="This is the question number 1"
+	               android:gravity="left|center_vertical"
+				   android:textColor="@color/black"
+				   android:textSize="16dp"
+				   android:layout_marginLeft = "15dp"
+						android:layout_marginTop="10dp"
+						android:layout_marginRight="15dp"
+	               android:layout_height="wrap_content"/>
+					<ImageView android:layout_width="match_parent"
+				   android:id = "@+id/solutionquestionimage"
+				   
+	               
+				   android:visibility = "gone"
+				   android:layout_marginTop="5dp"
+				   android:layout_marginLeft = "5dp"
+				   android:layout_marginRight="5dp"
+	               android:layout_height="wrap_content"/>
+						<ImageView android:layout_width="match_parent"
+				   android:id = "@+id/solutionquestionimage2"
+				   
+	               
+				   android:visibility = "gone"
+				   android:layout_marginTop="5dp"
+				   android:layout_marginLeft = "5dp"
+				   android:layout_marginRight="5dp"
+	               android:layout_height="wrap_content"/>
+					<LinearLayout android:layout_width = "match_parent"
+			     android:orientation="horizontal"
+			      
+			      android:background="@color/white"
+		          android:layout_height = "wrap_content">
+					<TextView  android:layout_width="wrap_content"
+						android:id="@+id/correctwronganswer"
+				   android:text="Correct Answer"
+	               android:gravity="left|center_vertical"
+					android:background="@drawable/greenrectangle"
+				   
+						android:textColor="@color/white"
+						android:textStyle="bold"
+						android:layout_marginTop="15dp"
+						android:paddingLeft="10dp"
+						android:paddingRight="10dp"
+				   android:textSize="16dp"
+				   android:layout_marginLeft = "15dp"
+	               android:layout_height="35dp"/>
+
+						<TextView  android:layout_width="wrap_content"
+						android:id="@+id/showcorrectanswer"
+				   android:text="Show correct Answer"
+	               android:gravity="left|center_vertical"
+					android:background="@drawable/orangerectangle"
+				   
+						android:textColor="@color/white"
+						android:textStyle="bold"
+						android:layout_marginTop="15dp"
+						android:paddingLeft="10dp"
+						android:paddingRight="10dp"
+				   android:textSize="16dp"
+				   android:layout_marginLeft = "15dp"
+	               android:layout_height="35dp"/>
+						</LinearLayout>
+			<LinearLayout android:layout_width = "match_parent"
+						android:id="@+id/soultionanwera"
+			         android:orientation="horizontal"
+			         android:gravity="center_vertical"
+			         android:background="#F0F3F4"
+				     android:layout_marginLeft="15dp"
+				     
+				     android:layout_marginRight="15dp"
+				     android:layout_marginTop="15dp"
+				    android:paddingTop="10dp"
+						android:paddingBottom = "10dp"
+		             android:layout_height = "wrap_content">
+
+				    <TextView android:layout_width = "33dp" 
+						android:id = "@+id/insidecirclea"
+					  android:layout_height = "33dp"
+					  android:text=""
+					  android:gravity="center"
+					android:layout_marginStart="15dp"
+					   android:background="@drawable/textviewcircle"
+					  android:textSize="17dp"
+					  android:textColor="@color/black"
+				     />
+				 <android.webkit.WebView android:layout_width = "wrap_content" 
+							android:id = "@+id/solutionoptiona"
+					  android:layout_height = "wrap_content"
+					  android:text="Test1"
+					  android:gravity="center"
+					  android:layout_marginStart="15dp"
+					 
+					  android:textSize="16dp"
+					  android:textColor="@color/black"
+				     />
+				  <ImageView android:layout_width="match_parent"
+				   android:id = "@+id/optionimage1"
+				   
+	               
+				   android:visibility = "gone"
+				   
+				  android:layout_marginStart="15dp"
+					  android:layout_marginEnd="15dp"
+	               android:layout_height="wrap_content"/>
+		    </LinearLayout>
+            <LinearLayout android:layout_width = "match_parent"
+			         android:orientation="horizontal"
+						android:id="@+id/solutionanwerb"
+			         android:gravity="center_vertical"
+			         android:background="@drawable/grrenrectanglewithstroke"
+				     android:layout_marginLeft="15dp"
+				     android:layout_marginRight="15dp"
+				     android:layout_marginTop="15dp"
+		             android:paddingTop="10dp"
+						android:paddingBottom = "10dp"
+		             android:layout_height = "wrap_content">
+
+				  <TextView android:layout_width = "33dp" 
+							android:id = "@+id/insidecircleb"
+					  android:layout_height = "33dp"
+					  android:text=""
+					  android:gravity="center"
+					  android:layout_marginStart="15dp"
+					  android:background="@drawable/greencircle"
+					  android:textSize="17dp"
+					  android:textColor="@color/white"
+				     />
+				<android.webkit.WebView android:layout_width = "wrap_content" 
+							android:id = "@+id/solutionoptionb"
+					  android:layout_height = "wrap_content"
+					  android:text="Test1"
+					  android:gravity="center"
+					  android:layout_marginStart="15dp"
+					 
+					  android:textSize="16dp"
+					  android:textColor="@color/black"
+				     />
+						<ImageView android:layout_width="match_parent"
+				   android:id = "@+id/optionimage2"
+				   
+	               
+				   android:visibility = "gone"
+				   
+				  android:layout_marginStart="15dp"
+					  android:layout_marginEnd="15dp"
+	               android:layout_height="wrap_content"/>
+		    </LinearLayout>
+							<LinearLayout android:layout_width = "match_parent"
+			         android:orientation="horizontal"
+						android:id="@+id/solutionanswerc"
+			         android:gravity="center_vertical"
+			         android:background="#F0F3F4"
+				     android:layout_marginLeft="15dp"
+				     android:layout_marginRight="15dp"
+				     android:layout_marginTop="15dp"
+		             android:paddingTop="10dp"
+						android:paddingBottom = "10dp"
+		             android:layout_height = "wrap_content">
+				 <TextView android:layout_width = "33dp" 
+							android:id = "@+id/insidecirclec"
+					  android:layout_height = "33dp"
+					  android:text=""
+					  android:gravity="center"
+					  android:layout_marginStart="15dp"
+					  android:background="@drawable/textviewcircle"
+					  android:textSize="17dp"
+					  android:textColor="@color/black"
+				     />
+				<android.webkit.WebView android:layout_width = "wrap_content" 
+							android:id = "@+id/solutionoptionc"
+					  android:layout_height = "wrap_content"
+					  android:text="Test1"
+					  android:gravity="center"
+					  android:layout_marginStart="15dp"
+					 
+					  android:textSize="16dp"
+					  android:textColor="@color/black"
+				     />
+						<ImageView android:layout_width="match_parent"
+				   android:id = "@+id/optionimage3"
+				   
+	               
+				   android:visibility = "gone"
+				   
+				  android:layout_marginStart="15dp"
+					  android:layout_marginEnd="15dp"
+	               android:layout_height="wrap_content"/>
+		    </LinearLayout>
+            <LinearLayout android:layout_width = "match_parent"
+						android:id="@+id/solutionanswerd"
+			         android:orientation="horizontal"
+			         android:gravity="center_vertical"
+			         android:background="#F0F3F4"
+				     android:layout_marginLeft="15dp"
+				     android:layout_marginRight="15dp"
+				     android:layout_marginTop="15dp"
+		             android:paddingTop="10dp"
+						android:paddingBottom = "10dp"
+		             android:layout_height = "wrap_content">
+				 <TextView android:layout_width = "33dp" 
+							android:id = "@+id/insidecircled"
+					  android:layout_height = "33dp"
+					  android:text=""
+					  android:gravity="center"
+					  android:layout_marginStart="15dp"
+					  android:background="@drawable/textviewcircle"
+					  android:textSize="17dp"
+					  android:textColor="@color/black"
+				     />
+				<android.webkit.WebView android:layout_width = "wrap_content" 
+							android:id = "@+id/solutionoptiond"
+					  android:layout_height = "wrap_content"
+					  android:text="Test1"
+					  android:gravity="center"
+					  android:layout_marginStart="15dp"
+					 
+					  android:textSize="16dp"
+					  android:textColor="@color/black"
+				     />
+						<ImageView android:layout_width="match_parent"
+				   android:id = "@+id/optionimage4"
+				   
+	               
+				   android:visibility = "gone"
+				   
+				  android:layout_marginStart="15dp"
+					  android:layout_marginEnd="15dp"
+	               android:layout_height="wrap_content"/>
+		    </LinearLayout>
+					 <LinearLayout android:layout_width = "match_parent"
+						android:id="@+id/solutionanswere"
+			         android:orientation="horizontal"
+			         android:gravity="center_vertical"
+			         android:background="#F0F3F4"
+				     android:layout_marginLeft="15dp"
+				     android:layout_marginRight="15dp"
+				     android:layout_marginTop="15dp"
+		             android:paddingTop="10dp"
+						android:paddingBottom = "10dp"
+		             android:layout_height = "wrap_content">
+				 <TextView android:layout_width = "33dp" 
+							android:id = "@+id/insidecirclee"
+					  android:layout_height = "33dp"
+					  android:text=""
+					  android:gravity="center"
+					  android:layout_marginStart="15dp"
+					  android:background="@drawable/textviewcircle"
+					  android:textSize="17dp"
+					  android:textColor="@color/black"
+				     />
+				<android.webkit.WebView android:layout_width = "wrap_content" 
+							android:id = "@+id/solutionoptione"
+					  android:layout_height = "wrap_content"
+					  android:text="Test1"
+					  android:gravity="center"
+					  android:layout_marginStart="15dp"
+					 
+					  android:textSize="16dp"
+					  android:textColor="@color/black"
+				     />
+						<ImageView android:layout_width="match_parent"
+				   android:id = "@+id/optionimage5"
+				   
+	               
+				   android:visibility = "gone"
+				   
+				  android:layout_marginStart="15dp"
+					  android:layout_marginEnd="15dp"
+	               android:layout_height="wrap_content"/>
+		    </LinearLayout>
+		    <View android:layout_height = "100dp"
+				android:layout_width="match_parent"
+				/>
+		
+	</LinearLayout>
+</LinearLayout>
+</ScrollView>
+
+	</LinearLayout>
+
+
+	<LinearLayout android:layout_width ="match_parent"
+                  android:orientation="horizontal"
+                  android:layout_gravity="bottom"
+		         
+		          android:background="@color/white"
+			      android:layout_height="50dp"
+                >
+		<android.support.v7.widget.CardView 
+  
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+   
+    card_view:cardElevation="6dp"
+    card_view:cardCornerRadius="3dp"
+
+    android:layout_height="wrap_content">
+	<LinearLayout  android:layout_width="match_parent"
+		
+		  android:orientation="horizontal"
+		android:background = "@color/white"
+    android:layout_height="56dp" >
+
+		<TextView  android:layout_width="0dp"
+			android:id ="@+id/tabAll"
+    android:layout_height="match_parent" 
+			android:textColor="@color/white"
+			android:layout_margin="10dp"
+			android:background="@drawable/tabonlinetextviewselect"
+			android:text = "All"
+			android:gravity = "center"
+		android:layout_weight="1"
+		/>
+
+		<TextView  android:layout_width="0dp"
+			android:id ="@+id/tabcorrect"
+    android:layout_height="match_parent" 
+			android:layout_margin="10dp"
+			android:background="@drawable/tabmocktextviewunselect"
+			android:text = "Correct"
+			android:textColor="@color/black"
+			android:gravity = "center"
+		android:layout_weight="1"
+		/>
+				<TextView  android:layout_width="0dp"
+			android:id ="@+id/tabwrong"
+    android:layout_height="match_parent" 
+			android:textColor="@color/black"
+			android:layout_margin="10dp"
+			android:background="@drawable/tabmocktextviewunselect"
+			android:text = "Wrong"
+			android:gravity = "center"
+		android:layout_weight="1"
+		/>
+
+		<TextView  android:layout_width="0dp"
+			android:id ="@+id/tabskipped"
+    android:layout_height="match_parent" 
+			android:layout_margin="10dp"
+			android:background="@drawable/tabmocktextviewunselect"
+			android:text = "Skipped"
+			android:textColor="@color/black"
+			android:gravity = "center"
+		android:layout_weight="1"
+		/>
+		</LinearLayout>
+</android.support.v7.widget.CardView>
+		</LinearLayout>
+</FrameLayout>
