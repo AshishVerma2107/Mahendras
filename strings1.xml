@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Mahendras</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+  <string name="Dashboard">Dashboard</string>
+  <string name="openDrawer">Open Drawer</string>
+  <string name ="closeDrawer">Close Drawer</string>
+  <string name="MyRequest">My Request</string>
+  <string name ="correct">Correct Answer</string>
+  <string name ="wronganswer">Wrong Answer</string>
+  <string name ="unattempted">Unattempted</string>
+  <string name ="markforreview">Mark For Review</string>
+  <string name ="markedforreview">Marked For Review</string>
+  <string name ="instruction">
+    
+    <b>Please read the following instructions very carefully:</b>\n\n
+
+    <b>1</b>.  Read carefully the instructions before starting the test.you can read the instructions in between the exam after clicking the "INSTRUCTION BUTTON".\n
+    <b>2</b>.  The test consists of three sections (Reasoning Ability, Test of Quantitative Aptitude and Test of English Language ) with 100 mark.\n
+    <b>3</b>.  This test is an outcome of an intensive process through which well researched and studied questions have been prepared by our team of experts.\n
+    <b>4</b>.  You have 60 minutes (20 minutes for Reasoning Ability, 20 minutes for Quantitative Aptitude, 20 minutes for English Language) to complete the test.\n
+    <b>5</b>.  The test contains a total of 100 questions.\n
+    <b>6</b>.  There is only one correct answer to each question. Click on the most appropriate option to mark it as your answer.\n
+    <b>7</b>.  You will be awarded 1 marks for each correct answer.\n
+    <b>8</b>.  There is no negative marking.\n
+    <b>9</b>.  According to your selection of questions it will change the colour in the boxes at the right side window, these colours will help you to identify the required group\n of questions.
+    <b>10</b>. You can unmark your answer by clicking on the "CLEAR RESPONSE" Option.\n
+    <b>11</b>. You can mark a question for reviewing it later by clicking on the "marked and review" button.\n
+    <b>12</b>. You can use the "FILTER BUTTON" to select your choices individually according to your given answers.\n
+    <b>13</b>. A Number list of all questions appears at the right hand side of the window. You can access the questions in any order within a section or across sections by clicking on the question number given on the number list.\n
+    <b>14</b>. You can use rough sheets while taking the test. Do not use calculators, log tables, dictionaries, or any other printed/online reference material during the test.\n
+    <b>15</b>. Do not click the button "SUBMIT TEST" before completing the test. A test once submitted cannot be resumed.\n
+    <b>16</b>. Submit the Exam at least 10 seconds before completing it and must avoid automatic submission otherwise result will not be generated.\n
+    <b>17</b>. If your system gets hanged or you face any other problem in internet connectivity, - "Don't Worry, Kindly close the window of the Test and you can resume your test from where you had left."\n
+    <b>18</b>. Once clicked on the (SUBMIT TEST) button, You Cannot REDO this Speed Test.....
+  </string>
+</resources>

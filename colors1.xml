@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#34495E</color>
+   <!-- <color name="colorPrimaryDark">#283747</color>-->
+  <color name="colorPrimaryDark">#0d3455</color>
+  <color name="colorPrimary1">#3990de</color>
+  <color name="colorPrimaryDark1">#337ec1</color>
+    <color name="colorAccent">#3498db</color>
+  <color name="mytest">#86B300</color>
+  <color name ="myselection">#2FC5B1</color>
+  <color name ="noticeboard">#FF0066</color>
+  <color name ="myschedule">#FF694B</color>
+  <color name ="mymembership">#9900FF</color>
+  <color name ="myrequest">#E6B800</color>
+  <color name ="Requetlab">#CC66FF</color>
+  <color name ="RequestSSC">#B36B00</color>
+  <color name ="stresult">#3990de</color>
+  <color name ="bookmica">#86B300</color>
+  <color name ="speedtestschedule">#FF9900</color>
+  <color name="grey">#808080</color>
+  <color name="white">#ffffff</color>
+  <color name="lightgrey">#AAAAAA</color>
+  <color name ="black">#000000</color>
+  <color name ="labelcolor">#fff</color>
+  <color name ="green">#21DF69</color>
+  <color name ="orange">#F1A126</color>
+  <color name ="red">#E72F2F</color>
+  <color name ="lightgreen">#C7FFBC</color>
+  <color name ="lightgrey">#F0F3F4</color>
+  <color name = "lightred">#FEC8C4</color>
+  <color name ="lightblue">#C4EEFE</color>
+  
+</resources>
